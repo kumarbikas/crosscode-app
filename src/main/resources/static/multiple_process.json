@@ -1,0 +1,56 @@
+{
+	"HostMachinesAssociated": [{
+		"HostMachineName": "172.31.45.62",
+		"processList": [{
+			"processName": "mysql",
+			"AssociatedMachineProcessList": [{
+				"hostIP": "172.31.42.177",
+				"hostName": "ip-172-31-42-177.us-west-2.compute.internal",
+				"processName": "java"
+			}, {
+				"hostIP": "172.31.28.170",
+				"hostName": "ip - 172 - 31 - 42 - 170. us - west - 2. compute.internal",
+				"processName": "java"
+			}]
+		}, {
+			"processName": "java",
+			"AssociatedMachineProcessList": [{
+				"hostIP": "172.31.42.180",
+				"hostName": "ip-172-31-42-177.us-west-2.compute.internal",
+				"processName": "java"
+			}, {
+				"hostIP": "172.31.28.190",
+				"hostName": "ip - 172 - 31 - 42 - 170. us - west - 2. compute.internal ",
+				"processName": "java"
+			}]
+		}]
+	}, {
+		"HostMachineName": "172.31.42.177",
+		"processList": [{
+			"processName": "java",
+			"AssociatedMachineProcessList": [{
+				"hostIP": "172.31.42.180",
+				"hostName": "ip-172-31-42-177.us-west-2.compute.internal",
+				"processName": "java"
+			}, {
+				"hostIP": "172.31.28.190",
+				"hostName": "ip - 172 - 31 - 42 - 170. us - west - 2. compute.internal ",
+				"processName": "java"
+			}]
+		}]
+	}, {
+		"HostMachineName": "172.31.45.180",
+		"processList": [{
+			"processName": "java",
+			"AssociatedMachineProcessList": [{
+				"hostIP": "172.31.28.170",
+				"hostName": "ip-172-31-42-177.us-west-2.compute.internal",
+				"processName": "java"
+			}, {
+				"hostIP": "172.31.28.190",
+				"hostName": "ip - 172 - 31 - 42 - 170. us - west - 2. compute.internal ",
+				"processName": "java"
+			}]
+		}]
+	}]
+}
